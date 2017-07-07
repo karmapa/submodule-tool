@@ -2,9 +2,9 @@
   "name": "submodule-tool",
   "version": "0.1.1",
   "description": "submodule tool",
-  "main": "src/installSub.sh",
+  "main": "src/install-sub.sh",
   "bin": {
-    "install-sub": "./src/installSub.sh",
+    "install-sub": "./src/install-sub.sh",
     "rebuild-sub": "./src/rebuildSub.sh"
   },
   "scripts": {
