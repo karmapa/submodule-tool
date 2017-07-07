@@ -1,6 +1,0 @@
-[submodule "raw/sambotha-parser"]
-	path = raw/sambotha-parser
-	url = git@github.com:karmapa/sambotha-parser.git
-[submodule "raw/tibetdoc-parser"]
-	path = raw/tibetdoc-parser
-	url = git@github.com:karmapa/tibetdoc-parser.git
