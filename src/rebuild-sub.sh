@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function rebuildSub() {
+function rebuild_sub() {
   BASE_PATH=$(pwd)
   SUB_PATHS=$(cat ./.gitmodules | grep path | awk '{print $3}')
   GREEN='\033[0;32m'
@@ -15,7 +15,7 @@ function rebuildSub() {
 }
 
 if test -e ".gitmodules"; then
-  rebuildSub
+  rebuild_sub
 else
   echo "no .gitmodules in "$(pwd)
 fi

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function installSub() {
+function install_sub() {
   BASE_PATH=$(pwd)
   SUB_PATHS=$(cat ./.gitmodules | grep path | awk '{print $3}')
   for path in $SUB_PATHS; do
@@ -23,7 +23,7 @@ function installSub() {
 }
 
 if test -e ".gitmodules"; then
-  installSub
+  install_sub
 else
   echo "no .gitmodules in "$(pwd)
 fi
