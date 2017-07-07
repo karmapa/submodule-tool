@@ -5,11 +5,11 @@
   "main": "src/install-sub.sh",
   "bin": {
     "install-sub": "./src/install-sub.sh",
-    "rebuild-sub": "./src/rebuildSub.sh"
+    "rebuild-sub": "./src/rebuild-sub.sh"
   },
   "scripts": {
     "install-sub": "./src/submodule.sh",
-    "rebuild-sub": "./src/rebuildSub.sh"
+    "rebuild-sub": "./src/rebuild-sub.sh"
   },
   "repository": {
     "type": "git",
