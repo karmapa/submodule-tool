@@ -9,7 +9,7 @@ function rebuild_sub() {
     test -d "$path" || continue
     cd $path
     echo -e "${GREEN}rebuild in "$path"${NC}"
-    npm rebuild
+    yarn install --force
     cd "$BASE_PATH"
   done
 }
