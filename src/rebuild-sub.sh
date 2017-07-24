@@ -9,7 +9,8 @@ function rebuild_sub() {
     test -d "$path" || continue
     cd $path
     echo -e "${GREEN}rebuild in "$path"${NC}"
-    yarn install --force
+    rm -rf node_modules/
+    yarn
     cd "$BASE_PATH"
   done
 }
