@@ -7,6 +7,7 @@ function install_sub() {
     test -d "$path" || continue
     cd $path
     if test -e "package.json"; then
+      rm -rf node_modules/
       yarn
     fi
     cd "$BASE_PATH"
