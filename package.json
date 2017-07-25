@@ -4,12 +4,10 @@
   "description": "submodule tool",
   "main": "src/install-sub.sh",
   "bin": {
-    "install-sub": "./src/install-sub.sh",
-    "rebuild-sub": "./src/rebuild-sub.sh"
+    "install-sub": "./src/install-sub.sh"
   },
   "scripts": {
-    "install-sub": "./src/submodule.sh",
-    "rebuild-sub": "./src/rebuild-sub.sh"
+    "install-sub": "./src/submodule.sh"
   },
   "repository": {
     "type": "git",
